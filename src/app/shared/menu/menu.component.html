@@ -10,6 +10,10 @@
             </li>
 
             <li>
+                <a routerLink="/dashboard" [routerLinkActive]="['active']" >Dashboard</a>
+            </li>
+
+            <li>
                 <a routerLink="['/404']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Error</a>
             </li>
         </ul>
